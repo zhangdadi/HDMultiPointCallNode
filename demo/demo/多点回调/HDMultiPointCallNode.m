@@ -84,7 +84,7 @@
         if (head.data != nil) {
             block(head.data);
         } else {
-            [self popIndex:i];
+            [self popIndex:i--];
         }
     }
 }
